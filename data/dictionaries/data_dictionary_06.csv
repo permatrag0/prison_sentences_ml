@@ -1,0 +1,52 @@
+Variable,Source,Description
+CIRCDIST,USSCD,Districts in the order in which they appear in the Commission�s Sourcebook of Federal Sentencing Statistics.
+SAFETY,USSCD,Indicator of whether or not the �Safety Valve� provision (�5C1.2 or 2D1.1) was applied. Note that this provision is only applicable to drug cases.
+ZONE,USSCD,Sentence table group which determines eligibility for probation and alternative prison sentences.
+COSTSUP,USSCD,"Dollar amount of cost of supervision, only if ordered separately from fine."
+TOTREST,USSCD,The dollar amount of restitution ordered.
+FINE,USSCD,The dollar amount of fine ordered (including cost of supervision when fine and cost of supervision are not reported separately)."
+SENTTOT,USSCD,"The total prison sentence (excluding months of alternative confinement), in months, without zeros (probation)."
+AGE,USSCD,"Identifies the age of the defendant at the time of sentencing. It is generated based on the date of birth provided either in the PSR or at case submission to USSC, and the sentencing date from the J&C."
+CHAP2,USSCD,Base Offense Level plus Chapter Two SOCs (Proxy for offense seriousness).
+CITIZEN,USSCD,Identifies the nature of defendant's citizenship with respect to the United States.
+CRIMHIST,USSCD,"Indication as to whether the defendant has any criminal history or law enforcement contacts, including behavior that is not eligible for the application of criminal history points (ex. arrests)."
+CRIMPTS,USSCD,"Subtotal of criminal history points applied, based on the contributions of one, two, and three point offenses (i.e., POINT1+POINT2+POINT3)."
+DISPOSIT,USSCD,Disposition of the defendant's case.
+DRUGTYP1,USSCD,Drug types involved in a case.
+DSPLEA,USSCD,Document status indicator for Plea Agreement.
+EDUCATN,USSCD,Indicates the highest level of education completed by the defendant.
+MONRACE,USSCD,Offender's race (self-reported to the probation officer).
+MONSEX,USSCD,Indicates the offender's gender.
+POINT1,USSCD,Number of one-point incidents (sentences < 60 days) included in the criminal history section of the PSR.
+POINT2,USSCD,Number of two-point incidents (> 60 days and < 13 months) included in the criminal history section of the PSR.
+POINT3,USSCD,Number of three-point incidents (> 13 months) included in the criminal history section of the PSR.
+PRISDUM,USSCD,Indicates if the defendant received a prison sentence (YES/NO variable).
+PROBATN,USSCD,"Total probation ordered, in months."
+SENTIMP,USSCD,"Indicates what type of sentence was given (prison, probation, probation plus alternatives, or prison/split sentence)."
+TOTCHPTS,USSCD,The total number of criminal history points applied.
+TOTUNIT,USSCD,The total number of units used to calculate offense level adjustment to be applied as a result of a multiple count or grouping adjustment.
+WEAPON,USSCD,Indicates if there is an SOC weapon enhancement or an 18�924(c) conviction.
+STATMIN,USSCD,"Total statutory minimum prison term, in months, for all counts of conviction."
+STATMAX,USSCD,"Total statutory maximum prison term, in months, for all counts."
+SENTYR,USSCD,Sentencing year. Field not on datafiles prior to FY2005.
+FILEDATE,FJCID,The date when a case was first docketed in the districtcourt.
+appointedby,Wikipedia,U.S. President that appointed the federal judge (Wikipedia).
+CourtName1,FJC Biographical Directory,Court name of judge service.
+Gender,FJC Biographical Directory,Judge gender.
+ACCAP,USSCD,Indicator of whether Armed Career Criminal status was applied under�4B1.4. This variable is 1 when ACCOFFLV>0. This variable applies only to cases whose AMENDYR is after 1989.
+SUPREL,USSCD,Number of months of supervised release ordered.
+SUPVREL1,FJCID,A period of supervised release imposed upon a defendant under TTITLE1
+FINEAMT1,FJCID,The fine imposed upon the defendant at sentencing under TTITLE1
+DISP1,FJCID,The code indicating the nature or type of disposition associated with TTITLE1
+PRISTIM1,FJCID,The number of months a defendant was sentenced to prison under TTITLE1
+PRESENT,USSCD,Offender�s pre-sentence detention status.
+CITWHERE,USSCD,Identifies the defendant's country of citizenship.
+NOUSTAT,USSCD,The number of unique statutes in a case.
+FLIGHT1,USSCD,This field is the number of levels added because defendant recklessly endangered another person during flight from law enforcement (�3C1.2).
+MITROL1,USSCD,Mitigating Role Adjustment (�3B1.2). This field is the number of levels subtracted due to the defendant's mitigating role in the offense.   The end points for this variable are denoted with X because the total number of guideline computations recorded varies from case to case and year to year.
+OBSTRC1,USSCD,Obstruction of Justice Adjustment (�3C1.1).  This field is the number of levels added because defendant willfully obstructed or impeded justice.
+OFFVCT1,USSCD,The Official Victim Adjustment (�3A1.2).  This field is the number of levels added due to involvement of a victim who is a law enforcement or corrections official.
+RSTRVC1,USSCD,Restraint of Victim Adjustment (�3A1.3).  This field is the number of levels added because victim was physically restrained during the offense.
+TEROR1,USSCD,"The Chapter Three Adjustment, International Terrorism (�3A1.4). Number of levels added due to international terrorism involvement in the offense."
+USKID1,USSCD,Use of Minor in Commission of a Crime (�3B1.4) which corresponds to GDLINE1-GDLINEX.  This field indicates the number of levels added for the use of a minor.
+VULVCT1,USSCD,Hate Crime/Vulnerable Victim Adjustment (�3A1.1).  Indicates levels added for hate crime/vulnerable victim.
